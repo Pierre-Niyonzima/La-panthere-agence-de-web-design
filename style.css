@@ -5,7 +5,6 @@ body {
   overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font
 }
 
 a,
@@ -57,27 +56,27 @@ a:hover {
   font-size: 22px;
   max-width: 630px;
   margin: auto;
-    letter-spacing: -1px;
+  letter-spacing: -1px;
 }
 
 .quote {
-    max-width: 550px;
-    font-weight: 600;
-    margin: auto;
-    line-height: 25px;
-    font-size: 21px;
-    font-style: italic;
-    letter-spacing: -1px;
+  max-width: 550px;
+  font-weight: 600;
+  margin: auto;
+  line-height: 25px;
+  font-size: 21px;
+  font-style: italic;
+  letter-spacing: -1px;
 }
 
-.author{
-    font-size: 22px;
+.author {
+  font-size: 22px;
 }
 
 .portfolio-title {
-    font-size: 22px;
-    line-height: 30px;
-    letter-spacing: -1px;
+  font-size: 22px;
+  line-height: 30px;
+  letter-spacing: -1px;
 }
 
 .bloc-sm {
@@ -128,7 +127,7 @@ a:hover {
 }
 
 .d-bloc {
-  color:white;
+  color: white;
 }
 
 .d-bloc button:hover {
@@ -317,7 +316,6 @@ a:hover {
 
 .navbar {
   margin-bottom: 0;
-
 }
 
 .navbar-brand {
@@ -347,7 +345,6 @@ a:hover {
   padding-top: 2px;
   margin-right: -16px;
   float: right;
-
 }
 
 .nav > li {
@@ -389,7 +386,6 @@ a:hover {
   font-size: 1px;
   float: right;
   position: relative;
-
 }
 
 @media (min-width: 768px) {
@@ -677,21 +673,17 @@ h4,
 h5,
 h6,
 p,
-.btn
-label
-{
+.btn label {
   font-family: "helvetica";
   font-weight: 400;
-  color: #000000 ;
+  color: #000000;
 }
 
-
-a
-{
+a {
   color: #ffffff;
 }
 
-.link-name{
+.link-name {
   color: white;
 }
 
@@ -815,7 +807,7 @@ h4 {
   background-color: #000000;
 }
 
-footer{
+footer {
   background-color: #000000;
 }
 
@@ -884,7 +876,7 @@ footer{
   }
 }
 
-@media (max-width: 992px) and (min-width: 768px) {
+@media screen and (max-width: 992px) and (min-width: 768px) {
   .navbar .nav {
     max-width: 80%;
   }
@@ -893,13 +885,13 @@ footer{
   }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
   .b-parallax {
     background-attachment: scroll;
   }
 }
 
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+@media only screen and (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
   .b-parallax {
     background-attachment: scroll;
   }
@@ -917,10 +909,7 @@ footer{
     overflow-x: hidden;
     position: relative;
   }
-  .bloc {
-    padding-left: constant(safe-area-inset-left);
-    padding-right: constant(safe-area-inset-right);
-  }
+
   .bloc-group,
   .bloc-group .bloc {
     display: block;
@@ -929,8 +918,6 @@ footer{
   .bloc-fill-screen .fill-bloc-top-edge,
   .bloc-fill-screen .fill-bloc-bottom-edge {
     padding: 0 20px;
-    padding-left: constant(safe-area-inset-left);
-    padding-right: constant(safe-area-inset-right);
   }
 }
 
