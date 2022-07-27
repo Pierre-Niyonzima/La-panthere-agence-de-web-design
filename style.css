@@ -83,6 +83,16 @@ a:hover {
   padding: 20px 50px;
 }
 
+.center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+iframe {
+  width: 95%;
+  margin: auto;
+  height: 400px;
+}
 .bg-center,
 .bg-l-edge,
 .bg-r-edge,
@@ -559,8 +569,9 @@ button {
 
 a[data-lightbox] {
   position: relative;
-  display: block;
+  display: flex;
   text-align: center;
+  justify-content: center;
 }
 
 a[data-lightbox]:hover::before {
@@ -620,7 +631,7 @@ a[data-lightbox]:hover img {
   position: absolute;
   top: 20px;
   right: 20px;
-
+  z-index: 20;
   background: rgba(0, 0, 0, 0.5);
   border: none;
   line-height: 30px;
@@ -806,6 +817,9 @@ h4 {
 .bgc-atomic-tangerine {
   background-color: #000000;
 }
+#bloc-6 {
+  background-color: #f3976c;
+}
 
 footer {
   background-color: #000000;
@@ -821,7 +835,7 @@ footer {
 }
 
 .btn-atomic-tangerine:hover {
-  background: #c27956 !important;
+  background: #f3976c !important;
   color: #ffffff !important;
 }
 
